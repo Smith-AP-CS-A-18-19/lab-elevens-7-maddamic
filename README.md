@@ -37,7 +37,7 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 |:--:|:--:|:----:|:--:|:----:|:----:|:--:|:--:|:----:|
 | J♥ | 6♣ |`null`| 2♠ |`null`|`null`| A♠ | 4♥ |`null`|
 
-   *  * Answer(vv)
+   *  * Answer(vv)  - This list should contain the indices of the cards, not the cards themselves
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -45,15 +45,18 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 
   * d. Complete the following `printCards` method to print all of the elements of cards that are indexed by `cIndexes`.
 ```java
-
   public static printCards(ElevensBoard board) {
       List<Integer> cIndexes = board.cardIndexes();
       for (int i = 0; i < cIndexes.size(); i++) {
         System.out.println(cIndexes.get(i));
       }
   }
-
+```
 
   * e. Which one of the methods that you identified in question 4b above needs to call the `cardIndexes` method before calling the `containsPairSum11` and `containsJQK` methods? Why?
 
         The replaceSelectedCards method.
+
+## Feedback
+4.c is slightly off
+19/20
