@@ -60,3 +60,7 @@ Follow the instructions provided for Activity 7 in the student lab guide. This i
 ## Feedback
 4.c is slightly off
 19/20
+
+## Feedback
+Failed to compile
+00/20
